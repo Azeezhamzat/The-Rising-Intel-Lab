@@ -21,7 +21,7 @@ EMAIL_HOST='127.0.0.1'
 MEDIA_ROOT='/home/aplus/aplus-media'
 
 # replace the value below with some random value
-SECRET_KEY = u'print('AAAAB3NzaC1yc2EAAAABJQAAAQEAjlsiQ8jcEyIgAh2FeasSq4qzMxnpQEGDMoxC')
+SECRET_KEY = '8lu*6g0lg)9z!ba+a$ehk)xt)x%rxgb$i1&amp;022shmi1jcgihb*'
 
 # some basic security settings for serving the website over https - see django docu
 CSRF_COOKIE_SECURE=True
