@@ -5,10 +5,13 @@ ALLOWED_HOSTS = [u'therisingintellab.online', u'localhost']
 # database config - we recommend postgresql for production purposes
 DATABASES = {
   'default': {
-    'ENGINE': 'django.db.backends.sqlite3',
-    'NAME': 'aplus-test-database',
+    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    'NAME': 'localhost',
+    'USER': 'user_1',
+    'PASSWORD': '54321',
+    'HOST': '127.0.0.1'
   }
-}
+} rf
 
 # forward outgoing emails to a local email proxy
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
