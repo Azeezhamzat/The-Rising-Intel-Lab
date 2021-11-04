@@ -11,7 +11,7 @@ DATABASES = {
     'PASSWORD': '54321',
     'HOST': '127.0.0.1'
   }
-} rf
+} 
 
 # forward outgoing emails to a local email proxy
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
